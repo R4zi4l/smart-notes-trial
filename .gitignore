@@ -1,0 +1,23 @@
+# Ignore all files
+/*
+
+# Except these files
+!.gitignore
+!requirements.txt
+!hints.txt
+!debianhints.txt
+!run.sh
+
+# And these folders
+!/backend/
+!/frontend/
+!/database/
+
+# Then again ignore everything that needed inside those folders
+__pycache__/
+node_modules/
+.cache/
+settings.ini
+dist/
+.crt
+.key

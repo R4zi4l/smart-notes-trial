@@ -1,0 +1,78 @@
+//-----------------------------------------------------------------------------
+// Global variables
+$step: 8px
+
+//-----------------------------------------------------------------------------
+// Frame
+$desktop-min-width: 768px
+
+//-----------------------------------------------------------------------------
+// Colors
+$color-white: #F7F7F7
+$color-dark: #064236
+$color-gray: #E5E5E5
+$color-primary: #0B7560
+$color-secondary: #ED820E
+$color-tertiary: #11C29F
+$color-error: #C24011
+
+//-----------------------------------------------------------------------------
+// Utilities
+@function alpha($color, $alpha)
+  @return #{$color}#{$alpha}  
+  
+// $color-white: #ffffff
+// $color-dark: #2c3e50
+// $color-error: #ff3333
+// $color-primary: #42b983
+// $color-inactive: #666666
+// $color-disabled: #666666
+
+// @function alpha($color, $alpha)
+//   @return #{$color}#{$alpha}
+
+// $color-selected: alpha($color-dark, '44')
+
+// // New spacing style
+// $page-width-min: 350px
+// $menu-width-max: 12rem
+
+// $size-base: 3rem
+// $size-button: $size-base / 8 * 6
+
+// $spacing-large: $size-base / 2
+// $spacing-medium: $size-base / 4
+// $spacing-small: $size-base / 8
+
+// $border-radius: 10px
+
+// $shadow-box: 2px 2px 5px 1px $color-dark
+// $shadow-text-selected: 0 0 3px rgba(255, 255, 255, .5), 0 0 10px $color-dark
+
+// $menu-width: 13rem
+
+// // OverlayMenu component settings
+// $overlaymenu-width-minimised: 3rem
+// $overlaymenu-width-maximised: c
+// $overlaymenu-height: 3rem
+// $overlaymenu-transition-initial: .3s linear
+// $overlaymenu-transition-final: .3s linear .2s
+// $overlaymenu-zindex: 100
+// $overlaymenu-radius: 1rem
+
+// $transition: .3s linear
+
+// $border: 1px solid $color-dark
+
+// @mixin breakpoint($size)
+//   @if $size == extra-small
+//       @content
+//   @else if $size == small
+//     @media (min-width: 590px)
+//         @content
+//   @else if $size == medium
+//     @media (min-width: 860px)
+//       @content
+//   @else if $size == large
+//     @media (min-width: 1350px)
+//       @content
